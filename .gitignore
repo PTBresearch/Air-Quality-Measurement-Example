@@ -1,0 +1,13 @@
+.venv
+.idea
+
+config.yml
+settings.config
+.env
+
+*.FCBak
+*.bkp
+
+*.FCStd.*
+*.blend*
+!*.blend

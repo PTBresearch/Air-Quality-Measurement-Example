@@ -1,0 +1,32 @@
+{
+    "id": "urn:ngsi-ld:IndoorEnvironmentObserved:id:placeholder",
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [52.295625, 10.456915]
+        }
+    },
+    "type": "IndoorEnvironmentObserved",
+    "dateObserved": {
+        "type": "Property",
+        "value": "2019-01-24T22:00:00.173Z"
+    },
+    "refDevice": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:IndoorEnvironmentObserved:refDevice:BME_1"
+    },
+    "temperature": {
+        "type": "Property",
+        "value": 12.1
+    },
+    "relativeHumidity": {
+        "type": "Property",
+        "value": 0.86
+    },
+    "atmosphericPressure": {
+        "type": "Property",
+        "value": 1013
+    },
+    "@context": ["https://smartdatamodels.org/context.jsonld"]
+}

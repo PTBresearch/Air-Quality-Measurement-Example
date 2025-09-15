@@ -1,0 +1,32 @@
+##################################################
+# Syntax Coloring Map For Obstacle-Sensor-SOLDERED
+##################################################
+
+##################################################
+# Datatypes (KEYWORD1)
+##################################################
+
+CCS_811         KEYWORD1
+
+##################################################
+# Methods and Functions (KEYWORD2)
+##################################################
+
+begin	                KEYWORD2
+getTVOC                 KEYWORD2
+getCO2                  KEYWORD2
+readAlgorithmResults    KEYWORD2
+checkForStatusError     KEYWORD2
+dataAvailable           KEYWORD2
+appValid                KEYWORD2
+getErrorRegister        KEYWORD2
+getBaseline             KEYWORD2
+setBaseline             KEYWORD2
+enableInterrupts        KEYWORD2
+disableInterrupts       KEYWORD2
+setDriveMode            KEYWORD2
+setEnvironmentalData    KEYWORD2
+
+##################################################
+# Constants (LITERAL1)
+##################################################

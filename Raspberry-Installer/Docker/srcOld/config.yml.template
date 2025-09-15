@@ -1,0 +1,26 @@
+api:
+  http:
+    port: 30000
+
+#DEBUG, INFO, WARNING, CRITICAL, ERROR
+loglevel: "DEBUG"
+#%(asctime)s - %(name)s - %(levelname)s - %(message)s
+logformat: "%(asctime)s %(levelname)s: %(message)s"
+
+request:
+  proxy:
+    httpProxy:
+    httpsProxy:
+
+influxdb:
+  #Path /api/v2/write?org=org&bucket=bucket
+  
+  token: ""
+  host: "http://localhost:8086"
+  path: ""
+  
+  #token2: ""
+  #host2: ""
+  #path2: ""
+
+fiware_url: "http://domain:port/ngsi-ld/v1/entities"
