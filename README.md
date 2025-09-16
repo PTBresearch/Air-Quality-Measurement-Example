@@ -7,9 +7,9 @@
 ```
 .
 ├── Arduino-Code/          # The main folder for all microcontroller code.
-│   ├── Main/              # Code for the primary Arduino prototype (likely ESP8266).
-│   │   ├── lib/           # Libraries for this specific project.
-│   │   └── Main.ino # The main program file for the Arduino.
+│   └── Main/              # Code for the primary Arduino prototype (likely ESP8266).
+│       ├── lib/           # Libraries for this specific project.
+│       └── Main.ino # The main program file for the Arduino.
 │
 ├── Dokumentation/         # Images.
 │
@@ -41,6 +41,56 @@
             ├── Inserts the data into a local database (InfluxDB)
             │
             └── Inserts the data into a global database (InfluxDB)
+```
+
+## Example JSON-Structure
+
+
+```
+{
+  "arduino_board": "<arduino_id>",
+  "sensors": [
+    {
+      "name": "<sensor_name>",
+      "sensor_model": "<sensor_model>",
+      "readings": [
+        {
+          "type": "<influx measurement>",
+          "value": VALUE,
+          "unit": "<unit>"
+          "label": "<label optional>"
+        },
+        {
+          "type": "<influx measurement>",
+          "value": VALUE,
+          "unit": "<unit>"
+          "label": "<label optional>"
+        }
+      ]
+    },
+    {
+      "name": "bme280",
+      "sensor_model": "",
+      "readings": [
+        {
+          "type": "temperature",
+          "value": VALUE,
+          "unit": "celsius"
+        },
+        {
+          "type": "pressure",
+          "value": VALUE,
+          "unit": "hpa"
+        },
+        {
+          "type": "humidity",
+          "value": VALUE,
+          "unit": "%"
+        }
+      ]
+    }
+  ]
+}
 ```
 
 ---
