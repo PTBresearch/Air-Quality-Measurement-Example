@@ -31,29 +31,29 @@
 <table>
   <tr>
     <td>
-      <img src="Dokumentation\Arduino\2025-09-16-PCB-V3-Blender-Render-Case.gif" alt="Front Image">
+      <img src="Dokumentation/Arduino/2025-09-16-PCB-V3-Blender-Render-Case.gif" alt="Front Image">
       <figcaption>Blender Case with PCB Render</figcaption>
     </td>
     <td>
-      <img src="Dokumentation\Arduino\2025-09-16-PCB-V3-Blender-Render-Case-Base.gif" alt="Front Image">
+      <img src="Dokumentation/Arduino/2025-09-16-PCB-V3-Blender-Render-Case-Base.gif" alt="Front Image">
       <figcaption>Blender Base with PCB Render</figcaption>
     </td>
     <td>
-      <img src="Dokumentation\Arduino\2025-09-16-PCB-V3-Blender-Render-PCB.gif" alt="Front Image">
+      <img src="Dokumentation/Arduino/2025-09-16-PCB-V3-Blender-Render-PCB.gif" alt="Front Image">
       <figcaption>Blender PCB Render</figcaption>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="Dokumentation\RPI\2024-05-15_RPI_Front.jpg" alt="Front Image">
+      <img src="Dokumentation/RPI/2024-05-15_RPI_Front.jpg" alt="Front Image">
       <figcaption>Front View</figcaption>
     </td>
     <td>
-      <img src="Dokumentation\RPI\2024-05-15_RPI_Side.jpg" alt="Side Image">
+      <img src="Dokumentation/RPI/2024-05-15_RPI_Side.jpg" alt="Side Image">
       <figcaption>Side View</figcaption>
     </td>
     <td>
-      <img src="Dokumentation\RPI\2024-05-15_RPI_Side.jpg" alt="Side Image">
+      <img src="Dokumentation/RPI/2024-05-15_RPI_Side.jpg" alt="Side Image">
       <figcaption>Placeholder</figcaption>
     </td>
   </tr>
