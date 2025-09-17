@@ -31,30 +31,44 @@
 <table>
   <tr>
     <td>
-      <img src="Dokumentation/Arduino/2025-09-16-PCB-V3-Blender-Render-Case.gif" alt="Front Image">
+      <img src="Dokumentation/Arduino/2025-09-16-PCB-V3-Blender-Render-Case.gif" width="800" alt="Front Image">
       <figcaption>Blender Case with PCB Render</figcaption>
     </td>
     <td>
-      <img src="Dokumentation/Arduino/2025-09-16-PCB-V3-Blender-Render-Case-Base.gif" alt="Front Image">
+      <img src="Dokumentation/Arduino/2025-09-16-PCB-V3-Blender-Render-Case-Base.gif" width="800" alt="Front Image">
       <figcaption>Blender Base with PCB Render</figcaption>
     </td>
     <td>
-      <img src="Dokumentation/Arduino/2025-09-16-PCB-V3-Blender-Render-PCB.gif" alt="Front Image">
+      <img src="Dokumentation/Arduino/2025-09-16-PCB-V3-Blender-Render-PCB.gif" width="800" alt="Front Image">
       <figcaption>Blender PCB Render</figcaption>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="Dokumentation/RPI/2024-05-15_RPI_Front.jpg" alt="Front Image">
+      <img src="Dokumentation/Arduino/2025-09-17_Full_Top.jpg" width="800" alt="Front Image">
+      <figcaption>Full Top</figcaption>
+    </td>
+    <td>
+      <img src="Dokumentation/Arduino/2025-09-17_Full_Front.jpg" width="800" alt="Front Image">
+      <figcaption>Full Front</figcaption>
+    </td>
+    <td>
+      <img src="Dokumentation/Arduino/2025-09-17_Mic.jpg" width="800" alt="Front Image">
+      <figcaption>Sensor Station</figcaption>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="Dokumentation/Arduino/2025-09-17_PCB_V1_Top.jpg" width="800" alt="Side Image">
+      <figcaption>Open PCB V1</figcaption>
+    </td>
+    <td>
+      <img src="Dokumentation/RPI/2024-05-15_RPI_Front.jpg" width="800" alt="Front Image">
       <figcaption>Front View</figcaption>
     </td>
     <td>
-      <img src="Dokumentation/RPI/2024-05-15_RPI_Side.jpg" alt="Side Image">
+      <img src="Dokumentation/RPI/2024-05-15_RPI_Side.jpg" width="800" alt="Side Image">
       <figcaption>Side View</figcaption>
-    </td>
-    <td>
-      <img src="Dokumentation/RPI/2024-05-15_RPI_Side.jpg" alt="Side Image">
-      <figcaption>Placeholder</figcaption>
     </td>
   </tr>
 </table>
