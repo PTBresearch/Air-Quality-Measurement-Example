@@ -1,15 +1,72 @@
 # Note: This repository is meant as an example. The code is incomplete and not the latest version. 
 
+# Note: The global InfluxDB instance is planned to be replaced by Fiware.
+
 # Air Quality
+
+## Sensors List (Not Complete)
+
++ **PPD42NS** (Dust Concentration)
+
++ **BME280** (Humidity, Air Pressure, Temperature)
+
++ **CCS811** (TVOC Value, CO2 Equivalent)
+
++ **MAX31855PMB1#** (Temperature)
+
++ **SHT35** (Temperature, Humidity)
+
++ **GUVA-S12D** (UV)
+
++ **TCS34725** Light Sensor (RGB, Color Temperature, Brightness, Reference Value)
+
++ **MH-Z19C** (CO2 Value Infrared Sensor, Temperature)
+
++ **SPH** (DB)
+
++ **HP206C** ()
+
+## Images and Render
+
+<table>
+  <tr>
+    <td>
+      <img src="Dokumentation\Arduino\2025-09-16-PCB-V3-Blender-Render-Case.gif" alt="Front Image">
+      <figcaption>Blender Case with PCB Render</figcaption>
+    </td>
+    <td>
+      <img src="Dokumentation\Arduino\2025-09-16-PCB-V3-Blender-Render-Case-Base.gif" alt="Front Image">
+      <figcaption>Blender Base with PCB Render</figcaption>
+    </td>
+    <td>
+      <img src="Dokumentation\Arduino\2025-09-16-PCB-V3-Blender-Render-PCB.gif" alt="Front Image">
+      <figcaption>Blender PCB Render</figcaption>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="Dokumentation\RPI\2024-05-15_RPI_Front.jpg" alt="Front Image">
+      <figcaption>Front View</figcaption>
+    </td>
+    <td>
+      <img src="Dokumentation\RPI\2024-05-15_RPI_Side.jpg" alt="Side Image">
+      <figcaption>Side View</figcaption>
+    </td>
+    <td>
+      <img src="Dokumentation\RPI\2024-05-15_RPI_Side.jpg" alt="Side Image">
+      <figcaption>Placeholder</figcaption>
+    </td>
+  </tr>
+</table>
 
 ## Structure
 
 ```
 .
 ├── Arduino-Code/          # The main folder for all microcontroller code.
-│   └── Main/              # Code for the primary Arduino prototype (likely ESP8266).
-│       ├── lib/           # Libraries for this specific project.
-│       └── Main.ino # The main program file for the Arduino.
+│   ├── Main/              # Code for the primary Arduino prototype (likely ESP8266).
+│   │   ├── lib/           # Libraries for this specific project.
+│   │   └── Main.ino # The main program file for the Arduino.
 │
 ├── Dokumentation/         # Images.
 │
@@ -213,21 +270,11 @@ systemctl reboot
 | D1 Mini | D1 Mini Lite | [https://www.reichelt.de/de/de/shop/produkt/d1_mini_lite_-_kompatibles_esp8285_board-291438](https://www.reichelt.de/de/de/shop/produkt/d1_mini_lite_-_kompatibles_esp8285_board-291438) | | | | | |
 | Teensy4.1 | Teensy4.1 | [https://www.reichelt.de/de/de/shop/produkt/teensy_4_1_usb_ohne_header-283580](https://www.reichelt.de/de/de/shop/produkt/teensy_4_1_usb_ohne_header-283580) | [https://cdn-reichelt.de/documents/datenblatt/A300/TEENSY_41_DE.pdf](https://cdn-reichelt.de/documents/datenblatt/A300/TEENSY_41_DE.pdf) | Consumes a lot of power, lacks a Wi-Fi or Bluetooth connection, and can overheat during complex tasks | Recommended Range: -40°C to +85°C | Range: 0% to 95% | |
 | Power Supply | USB Charger | [https://www.reichelt.de/de/de/shop/produkt/usb-ladegeraet_5_v_1_a_usb-c_schwarz-268087?PROVID=2788](https://www.reichelt.de/de/de/shop/produkt/usb-ladegeraet_5_v_1_a_usb-c_schwarz-268087?PROVID=2788) | | | | | |
----
 
-## Sensors (Not Complete)
-
-+ **TCS** Light Sensor (RGB, Color Temperature, Brightness, Reference Value)
-+ **GRV** Loudness Sensor (Max Value only, with its own microcontroller)
-+ **BME** (Humidity, Air Pressure, Temperature)
-+ **CCS** (TVOC Value)
-+ **MHZ** (CO2 Value Infrared Sensor)
-+ **DUST** (Concentration)
 
 ---
 
 ## Notes on Individual Sensors (Regarding Placement)
-***
 
 + **BME280 Temperature, Air Pressure, Humidity Sensor:**
     + [https://www.makershop.de/download/bst-bme280-ds002.pdf](https://www.makershop.de/download/bst-bme280-ds002.pdf)
@@ -254,8 +301,8 @@ systemctl reboot
     + Has a built-in fan, so do not place it directly next to the GRV Loudness sensor.
 
 ---
+
 ## General Notes
-***
 
 + The enclosure must be sufficiently open to allow air to flow in for measurements.
 + Ensure thermal, optical, and acoustic decoupling of the microcontroller from the sensors (use a partition).
